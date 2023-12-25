@@ -28,3 +28,35 @@ button:active {
     -3px -3px 7px 0 whitesmoke inset;
   text-shadow: 1px 1px 4px rgb(24, 24, 24);
 }
+
+/* task2 */
+.task2 {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.card {
+  padding: 20px;
+  width: 340px;
+  transition-duration: 1s;
+}
+.card img {
+  height: 300px;
+  width: 300px;
+  transition-duration: 1s;
+}
+h3 {
+  color: rgb(245, 5, 5);
+  font-size: 25px;
+  text-wrap: initial;
+  text-align: center;
+  padding-top: 15px;
+}
+.card:hover {
+  border-radius: 35px;
+  box-shadow: 5px 5px 15px 0 rgb(245, 5, 5), -5px -5px 15px 0 rgb(245, 5, 5);
+}
+.card:hover img {
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
