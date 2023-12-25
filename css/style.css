@@ -1,0 +1,30 @@
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+}
+/* task1 */
+.section1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(217, 158, 245);
+}
+button {
+  width: 300px;
+  height: 100px;
+  font-size: 20px;
+  background-color: rgb(217, 158, 245);
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: rgb(239, 237, 237);
+  margin: 50px;
+  box-shadow: 5px 8px 8px 2px rgb(27, 26, 26), 3px 3px 6px 0 rgb(244, 238, 238) inset;
+  border: none;
+  border-radius: 20px;
+  text-shadow: 4px 5px 4px rgb(24, 24, 24);
+}
+
+button:active {
+  box-shadow: 5px 7px 7px 2px rgb(27, 26, 26) inset,
+    -3px -3px 7px 0 whitesmoke inset;
+  text-shadow: 1px 1px 4px rgb(24, 24, 24);
+}
