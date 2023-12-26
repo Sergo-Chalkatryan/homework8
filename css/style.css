@@ -88,10 +88,45 @@ h3 {
   50% {
     text-shadow: 0 0 35px red;
   }
-  75% {
+  85% {
     text-shadow: 0 0 55px red;
   }
   100% {
     text-shadow: 0 0 75px red;
   }
+}
+
+/* task4 */
+.task4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.task4 div {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-width: 30px;
+  border-style: solid;
+  border-color: rgb(245, 5, 5) rgb(5, 12, 221) rgb(5, 12, 221) rgb(25, 248, 0);
+  animation: spin 1s linear infinite;
+}
+
+.task4 p {
+  position: absolute;
+  font-size: 40px;
+  color: rgb(250, 14, 37);
+  font-weight: bold;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.task4 div:hover {
+  animation-play-state: paused;
 }
